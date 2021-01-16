@@ -1,10 +1,8 @@
-package com.example.caseclosedfunctional;
+package com.example.caseclosed;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
@@ -19,16 +17,11 @@ public class Register extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_register);
+        setContentView(R.layout.activity_main);
 
-        goToLogin = findViewById(R.id.goToLogin);
 
-        goToLogin.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v){
-                startActivity(new Intent(getApplicationContext(), Login.class));
-            }
-        });
+
+
 
     }
 }
