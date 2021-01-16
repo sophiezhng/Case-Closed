@@ -22,13 +22,18 @@ public class Register extends AppCompatActivity {
         setContentView(R.layout.activity_register);
 
         goToLogin = findViewById(R.id.goToLogin);
-
+        regButton = findViewById(R.id.regButton);
         goToLogin.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
                 startActivity(new Intent(getApplicationContext(), Login.class));
             }
         });
-
+        regButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v){
+                startActivity(new Intent(getApplicationContext(), SettingsActivity.class));
+            }
+        });
     }
 }
