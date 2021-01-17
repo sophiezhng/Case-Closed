@@ -25,9 +25,6 @@ public class Login extends AppCompatActivity {
                 startActivity(new Intent(getApplicationContext(), Register.class));
             }
         });
-
-<<<<<<< Updated upstream
-=======
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -59,6 +56,5 @@ public class Login extends AppCompatActivity {
 
             }
         });
->>>>>>> Stashed changes
     }
 }

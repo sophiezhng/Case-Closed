@@ -1,11 +1,14 @@
 package com.example.caseclosedfunctional;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
+
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -16,12 +19,9 @@ public class Register extends AppCompatActivity {
     private FirebaseAuth fAuth;
     Button regButton, goToLogin;
     ProgressBar progressBar;
-<<<<<<< Updated upstream
-=======
     User user;
     DatabaseReference databaseReference;
 
->>>>>>> Stashed changes
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,13 +42,10 @@ public class Register extends AppCompatActivity {
                 startActivity(new Intent(Register.this, Login.class));
             }
         });
-<<<<<<< Updated upstream
         regButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
                 startActivity(new Intent(getApplicationContext(), SettingsActivity.class));
-=======
-
         //if (fAuth.getCurrentUser() != null) {
        //     startActivity(new Intent(Register.this, MainActivity.class));
        //     finish();
@@ -99,8 +96,14 @@ public class Register extends AppCompatActivity {
                         }
                     }
                 });
+            }
+        });
+        goToLogin = findViewById(R.id.goToLogin);
 
->>>>>>> Stashed changes
+        goToLogin.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                startActivity(new Intent(getApplicationContext(), Login.class));
             }
         });
     }
