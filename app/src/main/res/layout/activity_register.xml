@@ -47,8 +47,8 @@
         android:layout_marginLeft="40dp"
         android:layout_marginRight="40dp"
         android:layout_marginTop="70dp"
-        android:textColorHint="#FFFFFF"
-        />
+        android:inputType="textPersonName"
+        android:textColorHint="#FFFFFF"/>
     <EditText
         android:id="@+id/emailInputREG"
         android:hint="Email"
@@ -59,9 +59,9 @@
         android:layout_below="@id/nameInputREG"
         android:layout_marginLeft="40dp"
         android:layout_marginRight="40dp"
+        android:inputType="textEmailAddress"
         android:layout_marginTop="10dp"
-        android:textColorHint="#FFFFFF"
-        />
+        android:textColorHint="#FFFFFF"/>
     <EditText
         android:id="@+id/passInputREG"
         android:hint="Password"
@@ -73,8 +73,8 @@
         android:layout_marginLeft="40dp"
         android:layout_marginRight="40dp"
         android:layout_marginTop="10dp"
-        android:textColorHint="#FFFFFF"
-        />
+        android:inputType="textPassword"
+        android:textColorHint="#FFFFFF"/>
 
     <Button
         android:layout_width="match_parent"

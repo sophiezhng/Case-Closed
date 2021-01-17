@@ -7,6 +7,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
 
+import com.example.caseclosedfunctional.R;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class Register extends AppCompatActivity {

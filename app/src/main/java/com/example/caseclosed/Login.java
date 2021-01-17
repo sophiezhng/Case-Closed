@@ -3,6 +3,8 @@ package com.example.caseclosed;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
+import com.example.caseclosedfunctional.R;
+
 public class Login extends AppCompatActivity {
 
     @Override

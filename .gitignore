@@ -11,4 +11,34 @@
 /build
 /captures
 .externalNativeBuild
-.cxx
+.cxx/
+
+# Google Services (e.g. APIs or Firebase)
+# google-services.json
+
+# Freeline
+freeline.py
+freeline/
+freeline_project_description.json
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/readme.md
+
+# Version control
+vcs.xml
+
+# lint
+lint/intermediates/
+lint/generated/
+lint/outputs/
+lint/tmp/
+# lint/reports/
+app/src/main/.DS_Store
+app/src/main/java/com/example/.DS_Store
+app/src/main/res/.DS_Store
+app/src/main/res/values/.DS_Store
+gradle/.DS_Store
