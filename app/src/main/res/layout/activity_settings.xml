@@ -43,12 +43,8 @@
             android:layout_below="@+id/title_personal"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
-<<<<<<< Updated upstream
-            android:layout_marginRight="123dp" />
-=======
             android:layout_marginRight="123dp"
             />
->>>>>>> Stashed changes
 
         <TextView
             android:id="@+id/live_in_nurse"
@@ -66,55 +62,32 @@
 
         <RadioGroup
             android:id="@+id/group_nurse"
-<<<<<<< Updated upstream
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-=======
             android:layout_width="104dp"
             android:layout_height="40dp"
->>>>>>> Stashed changes
             android:layout_below="@+id/numberPicker"
             android:layout_alignRight="@+id/live_in_nurse"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
-<<<<<<< Updated upstream
-            android:layout_marginStart="32dp"
-            android:layout_marginLeft="32dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginEnd="24dp"
-            android:layout_marginRight="24dp"
-=======
             android:layout_marginStart="40dp"
             android:layout_marginLeft="40dp"
             android:layout_marginTop="5dp"
             android:layout_marginEnd="45dp"
             android:layout_marginRight="51dp"
->>>>>>> Stashed changes
             android:layout_toEndOf="@+id/live_in_nurse"
             android:layout_toRightOf="@+id/live_in_nurse"
             android:orientation="horizontal">
 
             <RadioButton
                 android:id="@+id/yes_nurse"
-<<<<<<< Updated upstream
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-=======
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
->>>>>>> Stashed changes
                 android:layout_weight="1"
                 android:text="@string/yes" />
 
             <RadioButton
                 android:id="@+id/no_nurse"
-<<<<<<< Updated upstream
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-=======
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
->>>>>>> Stashed changes
                 android:layout_weight="1"
                 android:text="@string/no" />
         </RadioGroup>
@@ -141,19 +114,11 @@
             android:layout_alignRight="@+id/plan_on_nurse"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
-<<<<<<< Updated upstream
-            android:layout_marginStart="32dp"
-            android:layout_marginLeft="32dp"
-            android:layout_marginTop="100dp"
-            android:layout_marginEnd="24dp"
-            android:layout_marginRight="24dp"
-=======
             android:layout_marginStart="40dp"
             android:layout_marginLeft="40dp"
             android:layout_marginTop="100dp"
             android:layout_marginEnd="45dp"
             android:layout_marginRight="50dp"
->>>>>>> Stashed changes
             android:layout_toEndOf="@+id/plan_on_nurse"
             android:layout_toRightOf="@+id/plan_on_nurse"
             android:orientation="horizontal">
@@ -195,10 +160,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Chronic lung failure/severe asthma"
-<<<<<<< Updated upstream
-            android:onClick="onCheckboxClicked"
-=======
->>>>>>> Stashed changes
             android:layout_below="@+id/conditions"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="16dp"
@@ -215,10 +176,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Diabetes with complications"
-<<<<<<< Updated upstream
-            android:onClick="onCheckboxClicked"
-=======
->>>>>>> Stashed changes
             android:layout_below="@+id/checkbox_lung"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="16dp"
@@ -235,10 +192,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Neurologic conditions that weaken ability to cough"
-<<<<<<< Updated upstream
-            android:onClick="onCheckboxClicked"
-=======
->>>>>>> Stashed changes
             android:layout_below="@+id/checkbox_diabetes"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="16dp"
@@ -255,10 +208,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Weakened immune system"
-<<<<<<< Updated upstream
-            android:onClick="onCheckboxClicked"
-=======
->>>>>>> Stashed changes
             android:layout_below="@+id/checkbox_neurologic"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="16dp"
@@ -275,10 +224,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Dialysis"
-<<<<<<< Updated upstream
-            android:onClick="onCheckboxClicked"
-=======
->>>>>>> Stashed changes
             android:layout_below="@+id/checkbox_heart"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="16dp"
@@ -295,10 +240,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Cirrhosis of the liver"
-<<<<<<< Updated upstream
-            android:onClick="onCheckboxClicked"
-=======
->>>>>>> Stashed changes
             android:layout_below="@+id/checkbox_dialysis"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="16dp"
@@ -315,10 +256,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Pregnancy"
-<<<<<<< Updated upstream
-            android:onClick="onCheckboxClicked"
-=======
->>>>>>> Stashed changes
             android:layout_below="@+id/checkbox_liver"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="16dp"
@@ -335,10 +272,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Extreme Obesity"
-<<<<<<< Updated upstream
-            android:onClick="onCheckboxClicked"
-=======
->>>>>>> Stashed changes
             android:layout_below="@+id/checkbox_preg"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="16dp"

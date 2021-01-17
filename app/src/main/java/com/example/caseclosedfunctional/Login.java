@@ -1,5 +1,6 @@
 package com.example.caseclosedfunctional;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -7,17 +8,32 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ProgressBar;
+import android.widget.Toast;
+
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.AuthResult;
+import com.google.firebase.auth.FirebaseAuth;
 
 public class Login extends AppCompatActivity {
     Button login, goReg;
     EditText email, password;
+    ProgressBar progressBar;
+    FirebaseAuth fAuth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
+        email = findViewById(R.id.emailInput);
+        password = findViewById(R.id.passInput);
+        progressBar = findViewById(R.id.progressBarLOG);
+        login = findViewById(R.id.loginButton);
         goReg = findViewById(R.id.goToReg);
+
+        fAuth = FirebaseAuth.getInstance();
 
         goReg.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -25,6 +41,7 @@ public class Login extends AppCompatActivity {
                 startActivity(new Intent(getApplicationContext(), Register.class));
             }
         });
+
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
