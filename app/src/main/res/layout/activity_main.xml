@@ -11,6 +11,7 @@
         android:layout_height="wrap_content"
         android:text="Hello World!"
 />
+<<<<<<< Updated upstream
 
     <Button
         android:layout_width="wrap_content"
@@ -23,3 +24,18 @@
         android:onClick="logout"/>
 
 </RelativeLayout>
+=======
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log out"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="25dp"
+        android:onClick="logout"/>
+
+</RelativeLayout>
+
+>>>>>>> Stashed changes

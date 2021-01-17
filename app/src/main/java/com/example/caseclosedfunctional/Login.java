@@ -63,7 +63,11 @@ public class Login extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if(task.isSuccessful()){
                             Toast.makeText(Login.this, "Sign-in was successful!", Toast.LENGTH_SHORT).show();
+<<<<<<< Updated upstream
                             startActivity(new Intent(getApplicationContext(), Settings.class));
+=======
+                            startActivity(new Intent(getApplicationContext(), MainActivity.class));
+>>>>>>> Stashed changes
                         }
                         else{
                             Toast.makeText(Login.this, "Error: " + task.getException().getMessage() + " Please retry registration!", Toast.LENGTH_SHORT).show();
