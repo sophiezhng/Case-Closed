@@ -7,7 +7,11 @@
         android:id="@+id/message_row"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< Updated upstream
         android:text=""
+=======
+        android:text="sum value"
+>>>>>>> Stashed changes
         android:textSize="14dp"
         android:layout_marginTop="14dp" />
 
