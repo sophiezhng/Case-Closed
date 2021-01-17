@@ -8,4 +8,5 @@
     <string name="conditions">Do you have any of the following health conditions? Check all that apply</string>
     <string name="yes">Yes</string>
     <string name="no">No</string>
+    <string name="my_dashboard">Your Dashboard</string>
 </resources>
